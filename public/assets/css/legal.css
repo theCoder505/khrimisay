@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&amp;display=swap');
+
+body {
+    font-family: 'Montserrat';
+    background: #eeeeee;
+}
+
+.legal_bar {
+    background: #489ea5;
+    color: #fff;
+    padding: 50px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.bottom_links {
+    padding: 50px;
+    background: #489ea5;
+    color: #fff;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+
+.all_link_holder {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.khrimi_links {
+    display: block;
+    color: #fff;
+    margin-bottom: 0.9rem;
+    font-size: 0.9rem;
+}
+
+.khrimi_links:last-child{
+    margin-bottom: 0px;
+}
+
+.legal_main_title {
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0px;
+    line-height: 0px;
+}
+
+.legal_short_title {
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: SFProText;
+    margin-bottom: 0.5rem;
+}
+
+.legal_date {
+    font-family: 'SFProText';
+    font-size: 0.85rem;
+    color: #ececec;
+}
+
+.legal_rows {
+    padding: 75px 50px;
+    display: flex;
+    grid-gap: 1rem;
+}
+
+.left_contents {
+    width: 300px;
+}
+
+.right_contents {
+    width: calc(100% - 300px);
+}
+
+.left_title {
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.right_title {
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #007a85;
+}
+
+.list_title {
+    margin-bottom: 1rem;
+}
+
+.activated_list,
+.list_title:hover {
+    color: #007a85;
+    font-weight: 600;
+}
+
+.overview_title {
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.overview_text {
+    font-family: 'SFProText';
+    color: #000;
+    font-weight: 500;
+}
+
+.overview_items {
+    margin-bottom: 2rem;
+}
+
+.left_fixed {
+    position: sticky;
+    top: 0;
+}
+
+
+.terms_buttons {
+    display: flex;
+    grid-gap: 15px;
+    margin-bottom: 1.5rem;
+}
+
+.terms_btn {
+    background: #cacaca;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.terms_btn:hover,
+.activated_btn {
+    background: #007a85;
+}
+
+.cookies_content {
+    max-width: 900px;
+    margin: 100px auto;
+    font-size: 1.05rem;
+    color: #000;
+    font-weight: 500;
+    font-family: 'SFProText';
+}
+
+.cookie_list {
+    margin: 1.5rem 0px;
+    line-height: 2.5rem;
+}
+
+.cookie_link {
+    color: #5194fb;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+
+

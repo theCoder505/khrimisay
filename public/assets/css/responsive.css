@@ -1,0 +1,133 @@
+@media screen and (min-width:576px){
+    .container{
+        max-width:87% !important;
+    }
+
+    body{
+        font-size: 100% !important;
+    }
+
+    .banner{
+        padding: 3rem 0 8rem 0;
+    }
+
+    .whoWeAre{
+        padding: 1rem 0 2rem 0;
+    }
+
+    .whyWeAre{
+        padding: 6rem 0;
+    }
+
+    .body-content-reverse{
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .body-content-reverse .image{
+        align-self: center;
+        width: 120%;
+    }
+
+    .body-content{
+        gap: 1rem;
+    }
+
+    .image{
+        width: 100% !important;
+    }
+
+
+}
+
+@media screen and (min-width:768px){
+    .container{
+        max-width: 85% !important;
+    }
+
+    body{
+        font-size: 100%;
+    }
+
+    .common-heading{
+        padding-bottom: 0.5rem !important;
+    }
+
+    .banner{
+        padding: 4rem 0 10rem 0;
+    }
+
+    .whoWeAre{
+        padding: 3rem 0;
+    }
+
+    .whyWeAre{
+        padding: 8rem 0;
+    }
+}
+
+
+@media screen and (min-width:992px){
+    .navbar-collapse{
+        text-align: right !important;
+    }
+
+    .banner{
+        padding: 5em 0 25em 0;
+    }
+
+    .whyWeAre{
+        padding: 15em 0;
+    }
+
+    .body-content-reverse{
+        display: grid;
+        grid-template-columns: 5fr 2fr;
+    }
+}
+
+
+@media screen and (min-width:1600px){
+    .container{
+        max-width: 87% !important;
+    }
+
+    body{
+        font-size: 150%;
+    }
+
+    .banner{
+        padding: 15rem 0 35rem 0;
+    }
+    
+    .whyWeAre{
+        padding: 20rem 0;
+    }
+}
+
+@media screen and (min-width:2034px){
+    .container{
+        max-width: 85% !important;
+    }
+
+    body{
+        font-size: 175% !important;
+    }
+
+    .banner{
+        padding: 10em 0 30em 0;
+    }
+
+
+    .whyWeAre{
+        padding: 18em 0;
+    }
+
+    .image img{
+        border-radius:1.5em;
+        -webkit-border-radius:1.5em;
+        -moz-border-radius:1.5em;
+        -ms-border-radius:1.5em;
+        -o-border-radius:1.5em;
+}
+}

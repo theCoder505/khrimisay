@@ -1,0 +1,53 @@
+@import url('ttps://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css');
+@import url('/assets/css/upromo.css');
+@import url('/assets/css/animate.min.css');
+@import url('/stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+.btn__newpromo {
+    font-size: 1vw;
+}
+
+.k__icon__span>span {
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: #30333c;
+    line-height: 32px;
+    margin-left: 0.15rem;
+}
+
+.nav-link img {
+    width: 22px !important;
+    height: 22px !important;
+}
+
+.all__promotable img {
+    width: 32px !important;
+    height: 32px !important;
+}
+
+.k__icon__span img {
+    width: 18px !important;
+    height: 18px !important;
+}
+
+.search__icons img {
+    width: 22px!important;
+    height: 22px!important;
+}
+
+.promotions__sidenav > li > a{
+    background: transparent;
+}
+
+@media screen and (max-width: 1300px) {
+    .btn__newpromo {
+        font-size: 0.8vw;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .btn__newpromo {
+        font-size: 0.7vw;
+    }
+}

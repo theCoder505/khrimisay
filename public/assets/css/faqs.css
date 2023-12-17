@@ -1,0 +1,309 @@
+/* header css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&amp;display=swap');
+
+:root {
+    --dark-black-color: #007a85;
+    --white-color: #ffffff;
+    --yellow-color: #007a85;
+}
+
+.sfpro {
+    font-family: SFProText;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+.bg__faqs {
+    background-color: var(--dark-black-color);
+}
+
+.bg__white {
+    background: var(--white-color);
+    border-radius: 10px;
+    border: 1px solid white !important;
+}
+
+.faqs__nav>li>a {
+    color: #333333;
+    font-weight: 600;
+}
+
+/* search bar */
+.bg__black {
+    background-color: #489ea5;
+}
+
+.row__height {
+    height: 325px;
+}
+
+.input__search {
+    color: white;
+    background: #7bb7bc;
+    outline: none !important;
+}
+
+.input__search::placeholder {
+    color: var(--white-color);
+}
+
+.input__search:focus {
+    background: #7bb7bc !important;
+}
+
+.searchBox {
+    background-color: #7bb7bc;
+    border-radius: 25px;
+}
+
+.bg__faqs {
+    background-color: #007a85;
+}
+
+.yellow__font {
+    color: var(--yellow-color);
+    font-weight: 600;
+}
+
+.white__font {
+    color: var(--white-color);
+}
+
+/* questions */
+.about__questions {
+    margin-bottom: 1.2rem;
+    cursor: pointer;
+}
+
+.about__questions>ul>li {
+    font-size: 1.1em;
+    margin-bottom: 1.1rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.questions__navpills {
+    background-color: #bed7d9;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.questions__navpills .nav-link.active,
+.questions__navpills .show>.nav-link {
+    color: #ffffff;
+    background-color: var(--dark-black-color);
+    border-radius: 0;
+    padding: 10px;
+}
+
+
+.questions__navpills>li>a {
+    color: #333333;
+    font-size: 1.05rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff !important;
+}
+
+
+/* questions */
+.about__questions {
+    margin-bottom: 1.2rem;
+}
+
+.about__questions>ul>li {
+    font-size: 1.1em;
+    margin-bottom: 1.1rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+
+/* didn't */
+.btn__support {
+    background-color: var(--yellow-color);
+    border-radius: 13px;
+    color: var(--white-color);
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+/* footer */
+/* .faqs__nav>li>a,
+.nav-item>a, */
+.faqs__nav>li>a:hover,
+.nav-item>a:hover {
+    color: var(--white-color) !important;
+    /* margin-left: 1.2rem; */
+    /* font-weight: 600 !important; */
+}
+
+
+.custom_footer_text {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+
+.list-unstyled>li>a:hover {
+    color: #0078fe;
+}
+
+.Khrimisay-logo {
+    left: 40px;
+}
+
+
+.top_bg {
+    border-radius: 0px 0px 30px 30px;
+}
+
+.bottom_bg {
+    border-radius: 30px 30px 0px 0px;
+}
+
+.rate_article {
+    margin: 0px 3rem;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    text-align: center;
+    padding: 3.5rem;
+    margin-bottom: 1rem;
+    font-family: SFProText;
+}
+
+.rate_title {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+}
+
+.rate_ratings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.rate_ratings .fa {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+
+.related_articles_links {
+    margin: 0px 3rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2.5rem;
+}
+
+.utter_link_title {
+    font-family: SFProText;
+    color: #686868;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.article_link {
+    display: block;
+    font-family: SFProText;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.fa-star::before {
+    content: "\f005";
+}
+
+
+.input__search.ml-2.border-0.sfpro {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+
+
+.menu {
+    background: #017F8A !important;
+}
+
+.about_btns .nav-item:hover a {
+    border-left: none !important;
+}
+
+.about_btns {
+    background: #489ea5;
+    border-radius: 10px;
+    line-height: 0rem;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 1rem 0.75rem;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+
+.commitment_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1.5rem;
+}
+
+.join_sqrs_btn {
+    background: #258d96;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 15px;
+    font-size: 1.25rem;
+}
+
+.khrimi_bottom_title {
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: SFProText;
+    font-weight: 600;
+    color: #fff;
+    width: 50%;
+    float: right;
+}
+
+.social_icons {
+    display: flex;
+    grid-gap: 1.5rem;
+    justify-content: end;
+    width: 100%;
+}
+
+.social_icon_line {
+    background: #258d96;
+    padding: 10px;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .footer__nav>li>a {
+        margin-left: 0;
+        margin-right: 0.6rem;
+    }
+}

@@ -1,0 +1,19 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css');
+@import url('/assets/css/upromo.css');
+@import url('/assets/css/animate.min.css');
+@import url('//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.promo_user_icon{
+    width: 45px!important;
+    height: 40px!important;
+}
+
+.list_promo{
+    width: 22px!important;
+    height: 22px!important;
+}
+
+.chart_promo{
+    width: 22px!important;
+    height: 22px!important;
+}
